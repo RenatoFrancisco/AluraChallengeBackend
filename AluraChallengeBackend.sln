@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraChallengeBackend.Data"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraChallengeBackend.Api", "src\AluraChallengeBackend.Api\AluraChallengeBackend.Api.csproj", "{7C746B9D-EF74-4EBC-9E97-7F4B7B224530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraChallengeBackend.Core", "src\AluraChallengeBackend.Core\AluraChallengeBackend.Core.csproj", "{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,10 +62,23 @@ Global
 		{7C746B9D-EF74-4EBC-9E97-7F4B7B224530}.Release|x64.Build.0 = Release|Any CPU
 		{7C746B9D-EF74-4EBC-9E97-7F4B7B224530}.Release|x86.ActiveCfg = Release|Any CPU
 		{7C746B9D-EF74-4EBC-9E97-7F4B7B224530}.Release|x86.Build.0 = Release|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Debug|x64.Build.0 = Debug|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Debug|x86.Build.0 = Debug|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Release|x64.ActiveCfg = Release|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Release|x64.Build.0 = Release|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Release|x86.ActiveCfg = Release|Any CPU
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4DDDDACD-6450-4953-AC38-45C2C10B1431} = {C0384474-78D6-4F4D-A59A-AD36D32A4980}
 		{55FDE828-B8D0-48C5-A9F5-101C65FA5ADA} = {C0384474-78D6-4F4D-A59A-AD36D32A4980}
 		{7C746B9D-EF74-4EBC-9E97-7F4B7B224530} = {C0384474-78D6-4F4D-A59A-AD36D32A4980}
+		{736A4441-96B0-47F2-BDE4-5ED9D5E383EC} = {C0384474-78D6-4F4D-A59A-AD36D32A4980}
 	EndGlobalSection
 EndGlobal
