@@ -8,6 +8,8 @@ namespace AluraChallengeBackend.Core.DomainObjects
 
         protected Entity() => Id = Guid.NewGuid();
 
+        public abstract void Validate();
+
         public override bool Equals(object obj)
         {
             var compareTo = obj as Entity;
