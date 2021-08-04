@@ -14,8 +14,8 @@ namespace AluraChallengeBackend.Domain.Interfaces
 
         Task Add(Video video);
 
-        Task Update(Video video);
+        void Update(Video video);
 
-        Task Remove(Guid id);
+        void Remove(Guid id);
     }
 }

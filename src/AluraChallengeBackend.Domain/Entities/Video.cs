@@ -3,12 +3,14 @@ using AluraChallengeBackend.Domain.Validations;
 
 namespace AluraChallengeBackend.Domain.Entities
 {
-    public class Video : Entity
+    public class Video : Entity, IAggregateRoot
     {
         public string Title { get; private set; }
         public string Description { get; private set; }
         public string Url { get; private set; }
 
+        protected Video() {}
+        
         public Video(string title, 
                      string description, 
                      string url)
